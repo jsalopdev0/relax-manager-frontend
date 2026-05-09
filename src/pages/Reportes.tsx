@@ -565,9 +565,6 @@ export default function Reportes() {
                 onCheckedChange={(checked: boolean) => setIncluirAnuladas(checked)}
               />
             </div>
-
-            {/* Botón PDF */}
-            <Button onClick={descargarPDF}>Descargar PDF</Button>
           </div>
         </CardHeader>
 

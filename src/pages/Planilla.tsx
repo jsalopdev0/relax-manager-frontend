@@ -529,10 +529,6 @@ export default function Planilla() {
             Cálculo de nómina y gestión de pagos al personal por semana.
           </p>
         </div>
-        <Button className="bg-primary hover:bg-primary/90" disabled={loading}>
-          <Download className="h-4 w-4 mr-2" />
-          Exportar Planilla
-        </Button>
       </div>
 
       {/* Controles de Período y Filtro de Historial */}
