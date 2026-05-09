@@ -122,9 +122,7 @@ export default function Trabajadores() {
                 </div>
               </div>
 
-              <Button variant="outline" className="w-full">
-                Ver Detalles
-              </Button>
+              
             </CardContent>
           </Card>
         ))}

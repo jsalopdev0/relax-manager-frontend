@@ -227,16 +227,6 @@ export default function Servicios() {
                       </div>
 
                       <div className="pt-2 flex gap-2">
-                        {isAdmin && (
-                          <Button
-                            variant="outline"
-                            className="flex-1"
-                            onClick={() => handleEditar(service)}
-                          >
-                            <Edit className="h-4 w-4 mr-2" />
-                            Editar
-                          </Button>
-                        )}
 
                         <Button
                           className={`${
