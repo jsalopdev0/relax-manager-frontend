@@ -364,7 +364,7 @@ export default function Dashboard() {
           title="Terapeutas Activos"
           value={stats.terapeutasActivos.toString()}
           icon={Users}
-          trend="2 disponibles ahora"
+          trend="12 disponibles ahora"
           trendUp={true}
           loading={loadingStats}
         />
